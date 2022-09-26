@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title> Demo | <%= @showArticle.title %> </title>
+  </head>
+
+  <body>
+    <h2>This page going to show the body and author name of the content</h2>
+
+    <h4> This content is belongs to <%= @showArticle.author %> </h4>
+    <ul>
+      <p>
+        <%= @showArticle.body %>
+      </p>
+    </ul>
+  </body>
+</html>
